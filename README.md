@@ -7,7 +7,7 @@ This observers checks the entire document for text highlighting.
 ## Setup
 1. Clone this repo and ```import { SelectObservable } from "./textObserver.js";``` in to your main javascript file.
 2. Create new SelectObservable. ```const so = new SelectObservable();```
-3. Subscribe your callback function to the observable  (as a subscriber you now have access to the the payload)
+3. Subscribe your callback function to the observable  (as a subscriber you now have access to the the payload, whenever the highlighting event is triggered)
 ```
 const observable = so.subscribe(myCallback);
 
